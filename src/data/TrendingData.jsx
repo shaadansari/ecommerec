@@ -1,0 +1,38 @@
+export default [
+  {
+    category: "shirt",
+    image1: "./images/shirt/formal/4.jpg",
+    type1: "formal",
+    image2: "./images/shirt/kurta/2.jpg",
+    type2: "kurta",
+    image3: "./images/shirt/casual/4.jpg",
+    type3: "casual",
+  },
+  {
+    category: "tshirt",
+    image1: "./images/tshirt/plain/4.jpg",
+    type1: "plain",
+    image2: "./images/tshirt/printed/2.jpg",
+    type2: "printed",
+    image3: "./images/tshirt/sports/4.jpg",
+    type3: "sports",
+  },
+  {
+    category: "jeans",
+    image1: "./images/jeans/denim/4.jpg",
+    type1: "denim",
+    image2: "./images/jeans/trouser/2.jpg",
+    type2: "trouser",
+    image3: "./images/jeans/sport/4.jpg",
+    type3: "sports",
+  },
+  {
+    category: "shoes",
+    image1: "./images/shoes/spor/4.jpg",
+    type1: "sports",
+    image2: "./images/shoes/formals/1.jpg",
+    type2: "formals",
+    image3: "./images/shoes/sneaker/4.jpg",
+    type3: "sneaker",
+  },
+];

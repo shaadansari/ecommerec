@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  background-color: white;
+  font-family: cursive;
+  color: rgb(185, 19, 19);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  color: rgb(185, 19, 19);
+  padding-left: 10px;
+  padding-right: 5px;
+  box-shadow: 1px 2px 3px 1px rgb(228, 96, 96);
+  border-radius: 10px;
+}
+
+.nav h2 {
+  margin-left: 0px;
+}
+
+.nav ul :hover {
+  transform: scale(1.1);
+}
+
+/* .nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: auto;
+  width: 250px;
+  height: 80px;
+  align-content: center;
+  border: 1px solid red;
+}
+
+.icon-nav{
+  border: 1px solid red;
+  font-size: xx-large;
+  /* margin-right: 22px;
+  margin-left: 13px; 
+  /* margin-left: 15px; 
+}
+
+.name-nav{
+  border: 1px solid red;
+  font-size: small;
+} */
+
+/* .nav ul li {
+  padding: 5px;
+  text-align: center;
+  /* font-size: small; */
+
+.nav ul {
+  display: grid;
+  list-style: none;
+  margin-left: auto;
+  /* border: 1px solid red; */
+  grid-template: 40px 30px / repeat(3, 1fr);
+}
+
+.icon-nav {
+  /* border: 1px solid red; */
+  font-size: x-large;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.name-nav {
+  /* border: 1px solid red; */
+  font-size: small;
+  text-align: center;
+  margin-left: 5px;
+}
+
+/* .footer {
+  position: relative;
+  top: 80vh;
+  box-shadow: 1px 2px 3px 1px rgb(228, 96, 96);
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(185, 19, 19);
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 0px;
+} */
+
+.component-1 {
+  display: flex;
+  height: 250px;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  /* flex-flow: row wrap; */
+  /* box-shadow: 1px 2px 3px 1px rgb(228, 96, 96);  */
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  color: rgb(185, 19, 19);
+}
+
+.component :hover {
+  transform: scale(1.1);
+}
+
+.component img {
+  height: 150px;
+  width: 120px;
+  border-radius: 50%;
+ 
+  box-shadow: 1px 2px 3px rgb(228, 96, 96);
+}
+
+.component-2 {
+  display: flex;
+  height: 300px;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  padding: 10px;
+  /* box-shadow: 1px 2px 3px 1px rgb(228, 96, 96); */
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(185, 19, 19);
+  /* border: 1px solid red; */
+}
+
+.components :hover {
+  transform: scale(1.1);
+}
+
+.components img {
+  height: 200px;
+  border-radius: 10%;
+  box-shadow: 1px 2px 3px 1px rgb(228, 96, 96);
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 150px;
+}
+
+.app-div {
+  padding: 1px 15px;
+}
+
+.div-shirt {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 270px;
+  padding: 35px;
+  margin: 10px;
+  grid-gap: 80px;
+  /* border: 1px solid red; */
+}
+
+.div-productcomponent{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 3px 1px rgb(228, 96, 96);
+  border-radius: 10%;
+  
+}
+
+.div-productcomponent:hover >  button  {
+   /* display: block; */
+   /* transform: scale(1.1); */
+   display: block;
+}
+
+.div-productcomponent div {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+}
+
+.div-productcomponent div > h4{
+  /* border: 1px solid blue; */
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.div-productcomponent div > img{
+  height: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  margin-bottom: 0px;
+  
+}
+
+.div-productcomponent button {
+  border: 1px solid rgb(177, 170, 170); 
+  box-shadow: 1px 2px 3px 1px rgb(228, 96, 96);
+  border-radius: 20%;
+  background-color: white;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: rgb(185, 19, 19);
+  
+  display: none;
+  /* border-style: none; */
+  
+}
+
+.div-productcomponent button:hover{
+  border: 1px solid rgb(51, 48, 48) ;
+  box-shadow: none;
+}
+
+.div-productcomponent button > span{
+  margin-right: 7px;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 4px;
+  font-size: large;
+} 
+
+.div-detailpage{
+  /* border: 1px solid red; */
+  display: flex;
+ 
+  margin-top: 20px;
+  flex-flow: row wrap;
+  height: auto;
+}
+
+.div-detailpage img {
+  /* border: 1px solid blue; */
+  /* margin-right: 15px; */
+  margin-left: auto;
+  margin-right: auto; 
+  width: 200px;
+  height: 250px;
+
+}
+
+.div-detailpage h2{
+  /* border: 1px solid red; */
+  margin: 5px;;
+
+}
+.div-detailpage h3{
+  /* border: 1px solid red; */
+  margin: 5px;;
+}
+.div-detailpage h4{
+  /* border: 1px solid red; */
+  margin: 5px;;
+}
+
+.div-detailpage span{
+  /* border: 1px solid red; */
+  margin: 5px;
+}
+
+.div-detailpage button{
+  border: 1px solid rgb(177, 170, 170); 
+  box-shadow: 1px 2px 3px 1px rgb(228, 96, 96);
+  border-radius: 20%;
+  background-color: white;
+  font-size: medium;
+  width: 45%;
+  color: rgb(185, 19, 19);
+  margin: 10px;
+}
+
+.div-detailpage button:hover{
+  border: 1px solid rgb(51, 48, 48) ;
+  box-shadow: none;
+  
+}
+
+.div-detailpage button > span{
+  margin-right: 7px;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 4px;
+  font-size: large;
+  margin: 10px;
+}
+
+.div-productcomponent > .wishbutton-clicked{
+  background-color: rgb(165, 149, 149);
+}
+
+.div-detailpage > div > span > .wishbutton-clicked{
+  background-color: rgb(165, 149, 149);
+}
+
+
+a:link {
+  color: rgb(185, 19, 19);
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(185, 19, 19);
+}
+
+a:hover {
+  text-decoration: none;
+}
